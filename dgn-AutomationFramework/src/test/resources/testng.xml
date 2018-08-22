@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" verbose="1" thread-count="10"
+	preserve-order="true">
+	<test name="Test Modules" enabled="true" parallel="classes"
+		preserve-order="true">
+		<parameter name="config" value="os-browser-platform.json" />
+		<parameter name="environment" value="BSwin10C" />
+		<classes>
+			<class name="com.ddaqe.dgn_project_filter.DGNProjectFilter_Part1" />
+			<class name="com.ddaqe.dgn_project_filter.DGNProjectFilter_Part2" />
+			<class name="com.ddaqe.dgn_3month_document.DGN3Month_Document" />
+			<class name="com.ddaqe.dgn_branding.DGNBrandingTest" />
+			<class name="com.ddaqe.dgn_company_custom_filters.DGNCompanyCustomFilters" />
+			<class name="com.ddaqe.dgn_company_dashboard.DGNCompanyDashboard" />
+			<class name="com.ddaqe.dgn_company_profile.DGNCompanyProfile" />
+			<class name="com.ddaqe.dgn_company_projects.DGNCompanyProjects" />
+			<class name="com.ddaqe.dgn_company_saved_search.DGNCompanySavedSearch" />
+			<class name="com.ddaqe.dgn_company_search.DGNCompanySearch" />
+			<class name="com.ddaqe.dgn_company_tracking_list.DGNCompanyTrackingList" />
+			<class
+				name="com.ddaqe.dgn_company_trackinglist_emails.DGNCompanyTrackingListEmails" />
+			<class name="com.ddaqe.dgn_company_filters.DGNCompanyFilters" />
+			<class
+				name="com.ddaqe.dgn_cross_search_power_ranking.DGNCrossSearchPowerRanking" />
+			<class name="com.ddaqe.dgn_customer_admin_tools.DGNCustomerAdminTools" />
+			<class
+				name="com.ddaqe.dgn_design_alert_save_search.DGN_DesignAlert_saveSearch" />
+			<class name="com.ddaqe.dgn_design_alert_search.DGNDesignAlertSearch1" />
+			<class name="com.ddaqe.dgn_docu_pro.DocuPro" />
+			<class name="com.ddaqe.dgn_download_batch.DGNDownloadBatch1" />
+			<class name="com.ddaqe.dgn_download_documents.DGNDownloadDocuments1" />
+			<class name="com.ddaqe.dgn_download_companies.DGNDownloadCompanies1" />
+			<class name="com.ddaqe.dgn_download_projects.DGNDownloadProjects1" />
+
+			<class name="com.ddaqe.dgn_email_alerts.DGNEmailAlerts" />
+			<class name="com.ddaqe.dgn_email_companies.DGNEmailCompanies" />
+			<class name="com.ddaqe.dgn_email_projects.DGNEmailProjects" />
+			<class name="com.ddaqe.dgn_expanded_page_width.DGNExpandedPageWidth" />
+			<class name="com.ddaqe.dgn_filter.DGNFilter" />
+			<class name="com.ddaqe.dgn_free_trial.DGN_FreeTrial" />
+			<class name="com.ddaqe.dgn_gpd.DGNGPD" />
+			<class name="com.ddaqe.dgn_home.DGNHome" />
+			<class name="com.ddaqe.dgn_lead_profiles.DGNLead_Profile" />
+			<class name="com.ddaqe.dgn_maps.DGNMaps" />
+			<class name="com.ddaqe.dgn_notes.DGNNotes" />
+			<class
+				name="com.ddaqe.dgn_planroom_and_project_sync.DGNPlanroomAndProjectSync" />
+			<class name="com.ddaqe.dgn_print_companies.DGNPrintCompanies" />
+			<class name="com.ddaqe.dgn_print_projects.DGNPrintProjects" />
+			<class
+				name="com.ddaqe.dgn_project_custom_filters.DGN_Project_Custom_Filters" />
+			<class name="com.ddaqe.dgn_project_dashboard.DGNProjectDashboard" />
+			<class name="com.ddaqe.dgn_project_profile.DGNProjectProfile" />
+			<class name="com.ddaqe.dgn_project_report.DGNProjectReport" />
+			<class name="com.ddaqe.dgn_project_saved_search.DGNProjectSavedSearch" />
+			<class name="com.ddaqe.dgn_project_search.DGNProjectSearch" />
+			<class
+				name="com.ddaqe.dgn_project_search_outside_license.DGNProjectSearchOutsideLicense" />
+			<class name="com.ddaqe.dgn_project_tracking_list.DGNProjectTrackingList" />
+			<class
+				name="com.ddaqe.dgn_project_trackinglist_emails.DGNProjectTrackingListEmails" />
+			<class
+				name="com.ddaqe.dgn_public_private_share.DGNPublicPrivateShareTest1" />
+			<class name="com.ddaqe.dgn_redesigned_view_header.DGNRedesignedViewHeader" />
+			<class name="com.ddaqe.dgn_research_app.Research_App" />
+			<class name="com.ddaqe.dgn_specalerts.DGNSpecAlerts" />
+			<class name="com.ddaqe.dgn_specalerts_dashboard.DGNSpecAlertsDashboard" />
+			<class name="com.ddaqe.dgn_specalerts_emails.DGNSpecAlertsEmails" />
+			<class name="com.ddaqe.dgn_stack_integration.DGNSTACK_Integration1" />
+			<class name="com.ddaqe.dgn_takeoff_projects.DGNTakeoffProjectsTest" />
+			<class name="com.ddaqe.dgn_tracking_list.DGNTrackingList" />
+			<class name="com.ddaqe.dgn_visualization.DGNVisualization" />
+			<class name="com.ddaqe.dgn_customer_account_tools.DGNCustomerAccountTools" />
+			<class name="com.ddaqe.dgn_tech_support.DGNTech_Support1" />
+			<class name="com.ddaqe.dgn_project_documents.DGNProjectDocuments" />
+			<class name="com.ddaqe.dgn_custom_csv.DGNCustomCSV1" />
+			<class name="com.ddaqe.dgn_project_grid.DGNProjectGrid1" /> 
+			<class name="com.ddaqe.dgn_mfr_viz_chart.DGNMFRVizChart1" />
+			<class name="com.ddaqe.dgn_project_pds.DGNPDS" />
+		</classes>
+
+	</test>
+</suite>

@@ -1,0 +1,11 @@
+/test-output
+/.classpath
+/.project
+.settings
+/debug.log
+/target/
+.metadata
+/local.log
+/bin/test-output
+/bin/
+/logs/dodge-ui-automation.log

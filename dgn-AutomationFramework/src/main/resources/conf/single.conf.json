@@ -1,0 +1,15 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"user": "santoshpardeshi1",
+	"key": "4ys5uYjcqPbWsc1AmHz2",
+	"capabilities": {
+		"project": "DGN",
+		"build": "DGN-browserstack-single",
+		"browserstack.debug": true
+	},
+	"environments": {
+		"chrome": {
+			"browser": "chrome"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" verbose="1" thread-count="10"
+	preserve-order="true">
+	<test name="Test Modules" enabled="true" parallel="classes"
+		preserve-order="true">
+		<parameter name="config" value="os-browser-platform.json" />
+		<parameter name="environment" value="BSwin10C" />
+		<classes>
+			<class name="com.ddaqe.dgn_project_documents.DGNProjectDocuments" />
+		</classes>
+
+	</test>
+</suite>

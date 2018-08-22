@@ -1,0 +1,52 @@
+{
+	"server": "hub-cloud.browserstack.com",
+	"user": "santoshpardeshi1",
+	"key": "4ys5uYjcqPbWsc1AmHz2",
+	"capabilities": {
+		"project": "DGN",
+		"build": "DGN-browserstack",
+		"browserstack.local": true,
+		"browserstack.debug": true
+	},
+	"environments": {
+		"BSwin10C": {
+			"os": "Windows",
+			"os_version": "10",
+			"browser": "chrome",
+			"resolution": "1024x768"
+		},
+		"BSwin10C1": {
+			"os": "Windows",
+			"os_version": "10",
+			"browser": "chrome",
+			"browser_version": "61.0.3163.100",
+			"resolution": "1024x768"
+		},
+		"BSwin10E": {
+			"os": "Windows",
+			"os_version": "10",
+			"browser": "edge",
+			"resolution": "1024x768"
+		},
+		"BSwin7IE11": {
+			"os": "Windows",
+			"os_version": "7",
+			"browser": "ie",
+			"browser_version": "11",
+			"resolution": "1024x768"
+		},
+		"BSwin81F": {
+			"os": "Windows",
+			"os_version": "8.1",
+			"browser": "firefox",
+			"resolution": "1024x768"
+		},
+		"BSosSierraS": {
+			"os": "OS X",
+			"os_version": "Sierra",
+			"browser": "safari",
+			"browser_version": "9.1",
+			"resolution": "1024x768"
+		}
+	}
+}

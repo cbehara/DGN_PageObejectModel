@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" verbose="1" thread-count="1"
+	preserve-order="true">
+	<test name="Download_DB_Test" enabled="true" parallel="classes"
+		preserve-order="true">
+		<classes>
+			<class name="com.ddaqe.dgn_download_batch.DGNDownloadBatch2" />
+			<class name="com.ddaqe.dgn_download_companies.DGNDownloadCompanies2" />
+			<class name="com.ddaqe.dgn_download_firms.DGNDownloadFirm2" />
+			<class name="com.ddaqe.dgn_download_projects.DGNDownloadProjects2" />
+			<class name="com.ddaqe.dgn_custom_csv.DGNCustomCSV2" />
+			<class name="com.ddaqe.dgn_public_private_share.DGNPublicPrivateShareTest2" />
+			<class name="com.ddaqe.dgn_stack_integration.DGNSTACK_Integration2" />
+			<class name="com.ddaqe.dgn_usage_tracking.DGNUsageTracking2" />
+			<class name="com.ddaqe.dgn_tech_support.DGNTech_Support2" />
+			<class name="com.ddaqe.dgn_design_alert_search.DGNDesignAlertSearch2" />
+			
+			<class name="com.ddaqe.dgn_download_documents.DGNDownloadDocuments2" />
+			<class name="com.ddaqe.dgn_project_grid.DGNProjectGrid2" />
+			<class name="com.ddaqe.dgn_mfr_viz_chart.DGNMFRVizChart2" />
+		<!-- <class name="com.ddaqe.dgn_ecommerce.DGNEcommerce" /> This being the least important module and breaking due to API Errors -->
+		</classes>
+	</test>
+</suite>
